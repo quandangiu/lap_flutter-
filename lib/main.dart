@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab_flutter/view/StoryScreen.dart';
 import 'package:lab_flutter/view/quiScreen.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: QuizPage(),
+      home: Destini(),
     );
   }
 }
