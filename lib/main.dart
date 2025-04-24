@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lab_flutter/lab3/lab3.dart';
 import 'package:lab_flutter/lab4/lab4.dart';
 import 'package:lab_flutter/lab5/lab5.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Magic8BallApp(),
+      home: DiceApp(),
     );
     // lab 9 mới cài cái này
     //    return MaterialApp(
