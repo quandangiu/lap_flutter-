@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab_flutter/lab8/BmiScreem.dart';
-import 'package:lab_flutter/lab9/loading_screen.dart';
+import 'package:lab_flutter/lab5/lab5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +11,19 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    //
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark(),
-      home: const LoadingScreen(),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
+      home: XylophoneApp(),
     );
+    //    return MaterialApp(
+    //     debugShowCheckedModeBanner: false,
+    //     theme: ThemeData.dark(),
+    //     home: const LoadingScreen(),
+    //   );
+    // }
   }
 }
