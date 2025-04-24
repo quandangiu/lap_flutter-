@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:lab_flutter/view/StoryScreen.dart';
-import 'package:lab_flutter/view/quiScreen.dart';
+import 'package:lab_flutter/lab8/BmiScreem.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Destini(),
+      home: BMICalculatorApp(),
     );
   }
 }
